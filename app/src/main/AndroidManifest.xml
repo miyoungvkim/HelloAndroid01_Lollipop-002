@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="app.android.com.helloandroid_lollipop">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <!-- add for tenserflow -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!--  -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity android:name=".Layout_Service_test"/>
+
+        <activity android:name=".Layout_Youtube_Player"/>
+        <activity android:name=".Layout_Local_VideoPlayer"/>
+        <activity android:name=".Layout_Local_Video_player_with_capture"/>
+        <!-- add for tenserflow -->
+        <activity android:name=".tensorflow.CameraActivity"/>
+        <!--  -->
+        <activity android:name=".tensorflow.YoutubeVideoPlayerActivity"/>
+        <activity android:name=".tensorflow.LocalVideoPlayerActivity" />
+
+        <activity  android:name=".Layout_Youtube_PlayeList" />
+        <activity
+            android:name=".youtube.PlayerActivity"
+            android:label="@string/title_activity_player"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>

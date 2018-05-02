@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_go_to_servce_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Service test" />
+
+    <Button
+        android:id="@+id/btn_go_to_local_videoplay_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go To Local Video Play" />
+
+    <Button
+        android:id="@+id/btn_go_to_youtube_test_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go To Youtube Play" />
+
+    <Button
+        android:id="@+id/btn_go_to_youtube_play_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go To Youtube Play List" />
+
+    <Button
+        android:id="@+id/btn_go_to_tenserflow_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go To Tenserflow test" />
+
+    <Button
+        android:id="@+id/btn_go_to_youtube_videoplay_with_tensorflow_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go To Youtube Video Play with tensorflow" />
+
+    <Button
+        android:id="@+id/btn_go_to_videoplay_with_tensorflow_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go To Local Video Play With TensorFlow" />
+
+</LinearLayout>
